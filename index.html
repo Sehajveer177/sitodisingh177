@@ -28,16 +28,35 @@
         nav {
             background-color: #333;
             padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
         }
 
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 10px;
         }
 
         nav a:hover {
             color: #00bfff;
+        }
+
+        /* Stile per il bottone Altervista */
+        .btn-altervista {
+            background-color: #00bfff;
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-altervista:hover {
+            background-color: #009acd;
         }
 
         .container {
@@ -74,6 +93,8 @@
         <a href="#home">Home</a>
         <a href="#chi-sono">Chi sono</a>
         <a href="#contatti">Contatti</a>
+        <!-- Bottone aggiunto per collegarsi al tuo sito Altervista -->
+        <a href="https://sehajveersingh.altervista.org/" class="btn-altervista" target="_blank">Sito Altervista</a>
     </nav>
 
     <div class="container">
@@ -103,5 +124,10 @@
         </section>
 
     </div>    
+
+    <footer>
+        <p>&copy; 2026 Sehajveer Singh - Tutti i diritti riservati</p>
+    </footer>
+
 </body>
 </html>
