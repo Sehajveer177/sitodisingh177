@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -45,7 +46,7 @@
             color: #00bfff;
         }
 
-        /* Stile per il bottone che porta alla tua pagina Ciao */
+        /* Pulsante pagina Ciao */
         .btn-altervista {
             background-color: #00bfff;
             color: white !important;
@@ -57,6 +58,20 @@
 
         .btn-altervista:hover {
             background-color: #009acd;
+        }
+
+        /* Pulsante XAMPP */
+        .btn-xampp {
+            background-color: #ff8c00;
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-xampp:hover {
+            background-color: #e07800;
         }
 
         .container {
@@ -93,8 +108,18 @@
         <a href="#home">Home</a>
         <a href="#chi-sono">Chi sono</a>
         <a href="#contatti">Contatti</a>
-        <!-- Bottone che punta esattamente a https://sehajveersingh.altervista.org/ciao/ -->
-        <a href="https://sehajveersingh.altervista.org/ciao/" class="btn-altervista" target="_blank">La mia pagina Ciao</a>
+
+        <a href="https://sehajveersingh.altervista.org/ciao/"
+           class="btn-altervista"
+           target="_blank">
+            La mia pagina Ciao
+        </a>
+
+        <a href="http://192.168.112.226/"
+           class="btn-xampp"
+           target="_blank">
+            Il mio XAMPP
+        </a>
     </nav>
 
     <div class="container">
@@ -103,7 +128,8 @@
             <h2>Benvenuto!</h2>
             <p>
                 Questo è il sito di <strong>Sehajveer Singh</strong>.
-                Qui puoi trovare alcune informazioni su di me e sulle mie attività.
+                Qui puoi trovare alcune informazioni su di me
+                e sulle mie attività.
             </p>
         </section>
 
@@ -119,11 +145,12 @@
         <section id="contatti" class="card">
             <h2>Contatti</h2>
             <p>
-                Per contattarmi scrivi a: sehajveersinghparmar@gmail.com
+                Per contattarmi scrivi a:
+                sehajveersinghparmar@gmail.com
             </p>
         </section>
 
-    </div>    
+    </div>
 
     <footer>
         <p>&copy; 2026 Sehajveer Singh - Tutti i diritti riservati</p>
